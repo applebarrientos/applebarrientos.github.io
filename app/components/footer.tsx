@@ -39,7 +39,7 @@ function SocialLinks() {
 export default function Footer() {
   return (
     <small className="block lg:mt-24 mt-16 text-[#1C1C1C] dark:text-[#D4D4D4]">
-      <time>© {YEAR}</time>{" "}
+      {/* <time>© {YEAR}</time>{" "}
       <a
         className="no-underline"
         href={socialLinks.twitter}
@@ -47,7 +47,7 @@ export default function Footer() {
         rel="noopener noreferrer"
       >
         {metaData.title}
-      </a>
+      </a> */}
       <style jsx>{`
         @media screen and (max-width: 480px) {
           article {
