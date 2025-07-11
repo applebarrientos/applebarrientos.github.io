@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/apple/Documents/00_repo/applebarrientos.github.io/app/error.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\n\nexport default function Error({\n  error,\n  reset,\n}: {\n  error: Error;\n  reset: () => void;\n}) {\n  useEffect(() => {\n    console.error(error);\n  }, [error]);\n\n  return (\n    <div>\n      <p>Oops! Something went wrong... maybe try refreshing?</p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAIe,SAAS,MAAM,EAC5B,KAAK,EACL,KAAK,EAIN;;IACC,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;2BAAE;YACR,QAAQ,KAAK,CAAC;QAChB;0BAAG;QAAC;KAAM;IAEV,qBACE,6LAAC;kBACC,cAAA,6LAAC;sBAAE;;;;;;;;;;;AAGT;GAhBwB;KAAA","debugId":null}}]
+}

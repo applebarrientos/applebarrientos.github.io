@@ -4,9 +4,9 @@ import { metaData } from "app/lib/config";
 export const dynamic = 'force-static';
 export const revalidate = false;
 
-export function GET(request: Request) {
-  let url = new URL(request.url);
-  let title = url.searchParams.get("title") || metaData.title;
+export function GET() {
+  // Use static title instead of dynamic URL parameters
+  const title = metaData.title;
 
   return new ImageResponse(
     (
