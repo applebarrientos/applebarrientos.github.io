@@ -86,17 +86,15 @@ __turbopack_context__.s({
     "socialLinks": (()=>socialLinks)
 });
 const metaData = {
-    baseUrl: "https://nextfolio-template.vercel.app/",
-    title: "Nextfolio",
-    name: "Sirius",
+    baseUrl: "https://applebarrientos.github.io/",
+    title: "Apple Barrientos",
+    name: "Apple Barrientos",
     ogImage: "/opengraph-image.png",
     description: "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance."
 };
 const socialLinks = {
-    twitter: "https://x.com/1tssirius",
-    github: "https://github.com/1msirius/Nextfolio",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    github: "https://github.com/applebarrientos/",
+    linkedin: "https://www.linkedin.com/in/applebarrientos/",
     email: "mailto:example@gmail.com"
 };
 }}),
@@ -117,14 +115,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$config$2e$ts__
 ;
 ;
 const navItems = {
-    "/blog": {
-        name: "Blog"
+    "/": {
+        name: "Home"
     },
     "/projects": {
         name: "Projects"
     },
-    "/photos": {
-        name: "Photos"
+    "/resume": {
+        name: "Resume"
+    },
+    "/contact": {
+        name: "Contact"
     }
 };
 function Navbar() {
@@ -141,12 +142,12 @@ function Navbar() {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["metaData"].title
                     }, void 0, false, {
                         fileName: "[project]/app/components/nav.tsx",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/components/nav.tsx",
-                    lineNumber: 15,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -158,29 +159,29 @@ function Navbar() {
                                 children: name
                             }, path, false, {
                                 fileName: "[project]/app/components/nav.tsx",
-                                lineNumber: 22,
+                                lineNumber: 23,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$theme$2d$switch$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ThemeSwitch"], {}, void 0, false, {
                             fileName: "[project]/app/components/nav.tsx",
-                            lineNumber: 30,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/nav.tsx",
-                    lineNumber: 20,
+                    lineNumber: 21,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/nav.tsx",
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/nav.tsx",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
