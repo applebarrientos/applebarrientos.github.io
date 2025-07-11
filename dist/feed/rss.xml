@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Nextfolio</title>
-        <link>https://nextfolio-template.vercel.app/</link>
+        <title>Apple Barrientos</title>
+        <link>https://applebarrientos.github.io/</link>
         <description>A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.</description>
-        <lastBuildDate>Thu, 10 Jul 2025 04:21:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Jul 2025 04:15:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
-        <copyright>All rights reserved 2025, Nextfolio</copyright>
-        <atom:link href="https://nextfolio-template.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright>All rights reserved 2025, Apple Barrientos</copyright>
+        <atom:link href="https://applebarrientos.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Custom MDX Examples]]></title>
-            <link>https://nextfolio-template.vercel.app/blog/custom-mdx-examples</link>
-            <guid isPermaLink="false">https://nextfolio-template.vercel.app/blog/custom-mdx-examples</guid>
+            <link>https://applebarrientos.github.io/blog/custom-mdx-examples</link>
+            <guid isPermaLink="false">https://applebarrientos.github.io/blog/custom-mdx-examples</guid>
             <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Nextfolio custom MDX examples.]]></description>
             <category>Custom MDX</category>
@@ -20,8 +20,8 @@
         </item>
         <item>
             <title><![CDATA[Getting Started with Nextfolio]]></title>
-            <link>https://nextfolio-template.vercel.app/blog/getting-started</link>
-            <guid isPermaLink="false">https://nextfolio-template.vercel.app/blog/getting-started</guid>
+            <link>https://applebarrientos.github.io/blog/getting-started</link>
+            <guid isPermaLink="false">https://applebarrientos.github.io/blog/getting-started</guid>
             <pubDate>Tue, 13 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Instructions to build and configure your Nextfolio portfolio.]]></description>
             <category>Configuration</category>
