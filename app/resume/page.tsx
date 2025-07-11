@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects",
-  description: "Nextfolio Projects",
+  title: "Resume",
+  description: "My Resume",
 };
 
 export default function Projects() {
